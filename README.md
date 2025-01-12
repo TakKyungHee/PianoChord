@@ -4,7 +4,7 @@ Converts a piano melody score to a three-line score. (input file formats are png
 download.py : web crawling to download learning data from Akbobada   
 toxml.py : converting file formats to midi like xml, musicxml. so files are able to be read   
 read.py : tokenizing, preprocessing for learning   
-learn.py : transformer-based-learning for each first model(travel, bass)   
+learn.py : transformer-based-learning for each first model (travel, bass)   
 ac_learn.py : learning for each second model   
 test.py : testing
 ## Models
