@@ -8,4 +8,4 @@ learn.py : transformer-based-learning for each first model(travel, bass)
 ac_learn.py : learning for each second model   
 test.py : for testing
 ## models
-It uses two models. First one makes piano 3 lines sheets from melody sheets. but it only makes sheets from non-empty measure of melody while many sheets have measures in which only accompaniments exist(melody measures are empty). Second one complements it by making sheets from the sheets first one made to complete sheets. It learn how to fill in the empty measures.
+It uses two models. The first model generates a three-line piano score from a melody-only sheet. However, it only generates measures that contain melody notes, whereas many real scores include measures that only have accompaniment (i.e., empty melody measures). The second model complements the first by taking those partially generated scores and filling in the empty measures, effectively learning how to complete the entire sheet.
