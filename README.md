@@ -1,5 +1,5 @@
 # PianoChord
-Converts piano melody sheet music to piano 3 lines sheet music. (input file formats are png, jpg, and midi.)
+Converts a piano melody score to a three-line score. (input file formats are png, jpg, and midi.)
 ## Components
 download.py : web crawling to download learning data from Akbobada   
 toxml.py : converting file formats to midi like xml, musicxml. so files are able to be read   
